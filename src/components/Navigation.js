@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 function Navigation() {
   return (
     <Navbar collapseOnSelect expand="md">
-      <Container>
+      <Container className="navbar-container">
         <Navbar.Brand className="brand" href="/">
           Indiana Santana
         </Navbar.Brand>

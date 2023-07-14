@@ -1,19 +1,20 @@
 nav {
   font-size: 1.5rem !important;
-  .container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  .brand {
-    font-size: 1.5rem;
+  background-color: #f5e5de;
+}
+.navbar-container {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+}
+.brand {
+    font-size: 1.5rem !important;
     color: #2e2725 !important;
-  }
-  .brand:hover,
-  .link-item:hover {
-    border-bottom: 1px solid #d08879;
-    padding-bottom: 3px;
-  }
-  .navbar-nav {
+}
+.brand:hover,
+.link-item:hover {
+  border-bottom: 1px solid #d08879;
+  padding-bottom: 3px;
+}
+.navbar-nav {
     column-gap: 2rem;
-  }
 }

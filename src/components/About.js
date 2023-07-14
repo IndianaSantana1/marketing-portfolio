@@ -1,12 +1,15 @@
 import React from "react";
-import { Container, Image, Row } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
+import "./styles/About.css";
 
 const About = () => {
   return (
-    <div id="about">
-      <Container>
-        <Image src="/profile-img.png" roundedCircle />
-        <h1>Elevate your business to the next level.</h1>
+    <div id="about" className="section">
+      <Container className="about-container">
+        <Image className="profile-img" src="/profile-img.png" roundedCircle />
+        <h1 className="about-title">
+          Elevate your business to the next level.
+        </h1>
       </Container>
     </div>
   );

@@ -2,8 +2,11 @@
 
 * {
   font-family: "EB Garamond";
-  background-color: #f5e5de;
   color: #d08879 !important;
+}
+.section {
+    background-color: #f5e5de;
+    padding: 3rem 0;
 }
 .App {
   text-align: center;
