@@ -6,9 +6,15 @@
 }
 .section {
     background-color: #fdf9f8;
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 h1 {
     text-align: center;
+}
+
+@media screen and (max-width: 31.25rem) {
+  h2 {
+      text-align: center !important;
+  }
 }

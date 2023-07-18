@@ -22,7 +22,7 @@ const Projects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button className="cta-button">View project</Button>
+                <Button className="cta-button project-btn">View project</Button>
               </Card.Body>
             </Card>
           </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button className="cta-button">View project</Button>
+                <Button className="cta-button project-btn">View project</Button>
               </Card.Body>
             </Card>
           </div>
@@ -54,10 +54,15 @@ const Projects = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button className="cta-button">View project</Button>
+                <Button className="cta-button project-btn">View project</Button>
               </Card.Body>
             </Card>
           </div>
+        </div>
+        <div className="projects-section-btn">
+            <Button className="cta-button more-projects-btn" size="lg" href="/projects">
+              View More Projects
+            </Button>
         </div>
       </Container>
     </div>

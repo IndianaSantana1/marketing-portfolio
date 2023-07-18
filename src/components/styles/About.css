@@ -1,7 +1,7 @@
 .about-container {
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 4rem;
 }
 .about-subsection {
     display: flex;
@@ -19,14 +19,26 @@
     color: white !important;
     border: none !important;
     font-weight: bold !important;
-    font-size: 1.5rem !important;
-    width: 18rem !important;
+    font-size: 1.25rem !important;
+    width: 20rem !important;
     margin-top: 2rem !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     gap: 0.5rem !important;
+    text-transform: uppercase !important;
+    border-radius: 999999px !important;
+    letter-spacing: .75px;
 }
 .cta-icon {
     fill: #ffffff !important;
+}
+
+@media screen and (max-width: 61.9375rem) {
+    .about-subsection {
+        justify-content: center;
+    }
+    .about-subsection .cta-button {
+        margin: auto;
+    }
 }

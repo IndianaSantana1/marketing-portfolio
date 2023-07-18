@@ -16,12 +16,12 @@ function Navigation() {
           <Nav className="me-auto"></Nav>
           <Nav>
             <Nav.Link className="link-item" href="/">
-              About
+              Home
             </Nav.Link>
             <Nav.Link className="link-item" href="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link className="link-item" href="/#contact">
+            <Nav.Link className="link-item" href="/contact">
               Contact
             </Nav.Link>
           </Nav>
