@@ -1,3 +1,19 @@
-.projects-section {
-    background-color: #fdf9f8;
+.projects-wrapper {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 0;
+}
+.project-item:hover {
+    cursor: pointer;
+}
+.card-body {
+    text-align: center;
+}
+.card-title {
+    font-size: 1.5rem;
+}
+.card-text {
+    font-size: 1.125rem;
 }

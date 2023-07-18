@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
+import { FaArrowRight } from "react-icons/fa";
 import "./styles/About.css";
 
 const About = () => {
@@ -27,8 +28,8 @@ const About = () => {
               a cup of coffee and let's dive into the exciting projects I've had
               the pleasure of spearheading.
             </h2>
-            <Button className="cta-button" size="lg">
-              Get Results With Me
+            <Button className="cta-button" size="lg" href="/#contact">
+              Get Results With Me <FaArrowRight className="cta-icon" />
             </Button>
           </div>
         </div>
