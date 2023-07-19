@@ -29,6 +29,7 @@ function Footer() {
         </div>
         <div className="social-media-wrapper">
           <BsLinkedin
+            className="social-icon"
             size={24}
             onClick={() => {
               window.open(
