@@ -14,6 +14,7 @@ nav {
 .link-item:hover {
   border-bottom: 1px solid #d08879;
   padding-bottom: 3px;
+  transform: scale(1.05);
 }
 .navbar-nav {
     column-gap: 2rem;

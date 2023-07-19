@@ -1,0 +1,10 @@
+.cta-section {
+    padding-bottom: 2rem;
+}
+.cta-section-btn .cta-btn{
+    margin: auto;
+}
+.cta-section-btn .cta-btn:hover {
+    margin: auto;
+    transform: scale(1.02);
+}

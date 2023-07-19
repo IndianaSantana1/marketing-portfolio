@@ -1,0 +1,24 @@
+.footer-section {
+    padding-bottom: 3rem;
+}
+.footer-container {
+    font-size: 1.25rem;
+}
+.footer-nav {
+    justify-content: center;
+    gap: 1rem;
+}
+.footer-text-wrapper {
+    text-align: center;
+    padding: 2rem 0;
+}
+.footer-text {
+    color: black !important;
+}
+.social-media-wrapper {
+    text-align: center;
+}
+.social-media-wrapper:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

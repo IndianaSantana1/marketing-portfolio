@@ -30,6 +30,9 @@
     border-radius: 999999px !important;
     letter-spacing: .75px;
 }
+.cta-button:hover {
+    transform: scale(1.02);
+}
 .cta-icon {
     fill: #ffffff !important;
 }

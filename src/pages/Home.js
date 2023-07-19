@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import About from "../components/About";
 import Footer from "../components/Footer";
+import CTA from "../components/CTA";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Projects />
       <Skills />
+      <CTA />
       <Footer />
     </div>
   );
