@@ -15,7 +15,7 @@ const Projects = () => {
               style={{ width: "20rem" }}
               onClick={() => window.open("/projects/#", "_self")}
             >
-              <Card.Img variant="top" src="/profile-img.png" />
+              <Card.Img variant="top" src="/images/profile-img.png" />
               <Card.Body>
                 <Card.Title>FromRose</Card.Title>
                 <Card.Text>
@@ -31,7 +31,7 @@ const Projects = () => {
               style={{ width: "20rem" }}
               onClick={() => window.open("/projects/#", "_self")}
             >
-              <Card.Img variant="top" src="/profile-img.png" />
+              <Card.Img variant="top" src="/images/profile-img.png" />
               <Card.Body>
                 <Card.Title>Magner Center</Card.Title>
                 <Card.Text>
@@ -47,7 +47,7 @@ const Projects = () => {
               style={{ width: "20rem" }}
               onClick={() => window.open("/projects/#", "_self")}
             >
-              <Card.Img variant="top" src="/profile-img.png" />
+              <Card.Img variant="top" src="/images/profile-img.png" />
               <Card.Body>
                 <Card.Title>PCI Media Inc.</Card.Title>
                 <Card.Text>
@@ -60,9 +60,13 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects-section-btn">
-            <Button className="cta-button more-projects-btn" size="lg" href="/projects">
-              View More Projects
-            </Button>
+          <Button
+            className="cta-button more-projects-btn"
+            size="lg"
+            href="/projects"
+          >
+            View More Projects
+          </Button>
         </div>
       </Container>
     </div>

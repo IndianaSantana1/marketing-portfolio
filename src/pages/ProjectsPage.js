@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "./styles/ProjectPage.css";
 import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 let myData = require("../myData.json");
 
 const Projects = () => {
@@ -31,6 +32,7 @@ const Projects = () => {
           buttonLabel="Get in touch"
         />
       </Container>
+      <Footer />
     </div>
   );
 };

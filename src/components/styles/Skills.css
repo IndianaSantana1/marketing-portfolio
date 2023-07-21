@@ -45,6 +45,9 @@
     flex-direction: column;
     gap: 1rem;
 }
+.certs .card-body, .skills .card-body {
+    color: #d08879 !important;
+}
 .cert-card {
     width: 100%;
     font-size: 1.25rem;

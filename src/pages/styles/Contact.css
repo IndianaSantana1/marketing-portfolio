@@ -1,0 +1,35 @@
+.contact-section {
+    background-color: #f5e5de;
+    color: black !important;
+    padding: 4rem !important;
+}
+.contact-section h1 {
+    font-size: 2rem;
+    color: #d08879 !important;
+}
+.contact-form-wrapper {
+    padding-top: 3rem;
+    margin: auto;
+    max-width: 35rem;
+    font-size: 1.25rem;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact-form .form-item {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.form-item input, textarea {
+    padding: .75rem;
+    border: none;
+    border-radius: 10px;
+}
+.contact-btn {
+    margin-top: 0 !important;
+    width: 15rem !important;
+}

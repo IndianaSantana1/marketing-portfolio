@@ -10,6 +10,9 @@ nav {
     font-size: 1.5rem !important;
     color: #2e2725 !important;
 }
+.link-item {
+    color: #d08879 !important;
+}
 .brand:hover,
 .link-item:hover {
   border-bottom: 1px solid #d08879;
