@@ -1,0 +1,37 @@
+{
+  "skills": [
+    "Digital Marketing",
+    "Microsoft Office",
+    "Google Analytics",
+    "Google Ads",
+    "Email Marketing",
+    "Google Workspace"
+  ],
+  "certifications": [
+    "LinkedIn Digital Marketing Specialist",
+    "Google Project Management Certificate",
+    "Google Analytics Certification"
+  ],
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "imageUrl": "./images/default-text-and-media.jpg"
+    },
+    {
+      "title": "Project 2",
+      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "imageUrl": "./images/default-text-and-media.jpg"
+    },
+    {
+      "title": "Project 3",
+      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "imageUrl": "./images/default-text-and-media.jpg"
+    },
+    {
+      "title": "Project 4",
+      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "imageUrl": "./images/default-text-and-media.jpg"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import "./styles/Skills.css"
-let SkillsAndCerts = require('../shared/SkillsAndCerts.json')
+let SkillsAndCerts = require("../myData.json");
 
 const Skills = () => {
   return (
