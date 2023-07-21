@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/Contact.css";
 import { Button, Container } from "react-bootstrap";
 import Footer from "../components/Footer";
 
 const Contact = () => {
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [buttonColor, setButtonColor] = useState("#d08879");
+  const [buttonLabel, setButtonLabel] = useState("Send Message");
 
   function encode(data) {
     return Object.keys(data)
@@ -16,6 +18,17 @@ const Contact = () => {
       .join("&");
   }
 
+  function changeButtonColor() {
+    setButtonLabel("Message sent!");
+    setButtonColor("green");
+
+    // Reset the button after 3 seconds
+    setTimeout(() => {
+      setButtonLabel("Send Message");
+      setButtonColor("#d08879");
+    }, 3000);
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
     fetch("/", {
@@ -23,7 +36,7 @@ const Contact = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "Contact Portfolio", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => changeButtonColor())
       .catch((error) => alert(error));
   }
   return (
@@ -72,9 +85,13 @@ const Contact = () => {
                 onChange={(e) => setMessage(e.target.value)}
               />
             </div>
-            <Button className="cta-button contact-btn" type="submit">
-              Send Message
-            </Button>
+            <button
+              className="contact-btn"
+              type="submit"
+              style={{ backgroundColor: buttonColor }}
+            >
+              {buttonLabel}
+            </button>
           </form>
         </div>
         <Footer />

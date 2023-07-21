@@ -30,6 +30,16 @@
     border-radius: 10px;
 }
 .contact-btn {
-    margin-top: 0 !important;
-    width: 15rem !important;
+    width: 15rem;
+    border: none;
+    color: white;
+    border-radius: 999999px;
+    font-size: 1.25rem !important;
+    letter-spacing: .75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+.contact-btn:hover {
+    transform: scale(1.02);
 }
