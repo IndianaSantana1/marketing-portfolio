@@ -8,7 +8,7 @@ const About = () => {
     <div id="about" className="section">
       <Container className="about-container">
         <div className="about-subsection">
-          <h2>01 — Introduction</h2>
+          <h2>About Me</h2>
           <div className="subsection-body">
             <h2>
               Hey there! My name is Indiana Santana and I am a marketing
@@ -19,7 +19,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-subsection">
-          <h2>02 — Experiece</h2>
+          <h2>Marketing Experiece</h2>
           <div className="subsection-body">
             <h2>
               From collaborating with cross-functional teams to executing
