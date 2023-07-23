@@ -1,7 +1,8 @@
 import React from "react";
+import "./styles/Skills.css";
 import { Container } from "react-bootstrap";
-import Card from 'react-bootstrap/Card';
-import "./styles/Skills.css"
+import Card from "react-bootstrap/Card";
+import { LiaCertificateSolid } from "react-icons/lia";
 let SkillsAndCerts = require("../myData.json");
 
 const Skills = () => {
@@ -16,7 +17,15 @@ const Skills = () => {
               {SkillsAndCerts.certifications.map((cert) => {
                 return (
                   <Card body className="cert-card">
-                    {cert}
+                    <Card.Img variant="top" src={cert.imageUrl} />
+                    <Card.Body>
+                      <Card.Title>
+                        <div>
+                          <LiaCertificateSolid />
+                        </div>
+                        <div>{cert.title}</div>
+                      </Card.Title>
+                    </Card.Body>
                   </Card>
                 );
               })}
@@ -28,7 +37,7 @@ const Skills = () => {
               {SkillsAndCerts.skills.map((skill) => {
                 return (
                   <Card body className="skill-card">
-                    {skill}
+                    <Card.Img src={skill.imageUrl} />
                   </Card>
                 );
               })}

@@ -1,16 +1,28 @@
 {
   "skills": [
-    "Digital Marketing",
-    "Microsoft Office",
-    "Google Analytics",
-    "Google Ads",
-    "Email Marketing",
-    "Google Workspace"
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" },
+    { "imageUrl": "./images/canva.png" }
   ],
   "certifications": [
-    "LinkedIn Digital Marketing Specialist Certificate",
-    "Google Project Management Certificate",
-    "Google Analytics Certificate"
+    {
+      "title": "LinkedIn Digital Marketing Specialist Certificate",
+      "imageUrl": "./images/certs/LinkedInCert.jpg"
+    },
+    {
+      "title": "Google Project Management Certificate",
+      "imageUrl": "./images/certs/LinkedInCert.jpg"
+    },
+    {
+      "title": "Google Analytics Certificate",
+      "imageUrl": "./images/certs/LinkedInCert.jpg"
+    }
   ],
   "projects": [
     {

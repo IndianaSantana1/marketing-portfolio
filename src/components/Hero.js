@@ -8,7 +8,7 @@ const Hero = () => {
       <Container className="hero-container">
         <Image
           className="profile-img"
-          src="/images/profile-img.png"
+          src="/images/profile-img.jpg"
           roundedCircle
         />
         <h1 className="hero-title">Digital Marketing Specialist</h1>
