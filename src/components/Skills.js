@@ -26,9 +26,9 @@ const Skills = () => {
           <div className="certs-wrapper">
             <h2>Certifications</h2>
             <div className="certs">
-              {SkillsAndCerts.certifications.map((cert) => {
+              {SkillsAndCerts.certifications.map((cert, key) => {
                 return (
-                  <Card body className="cert-card">
+                  <Card body id={key} className="cert-card"  onClick={() => window.open(cert.certUrl, "_blank")}>
                     <Card.Img variant="top" src={cert.imageUrl} />
                     <Card.Body>
                       <Card.Title>

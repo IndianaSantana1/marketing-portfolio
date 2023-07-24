@@ -19,15 +19,18 @@
   "certifications": [
     {
       "title": "LinkedIn Digital Marketing Specialist Certificate",
-      "imageUrl": "./images/certs/LinkedInCert.jpg"
+      "imageUrl": "./images/certs/LinkedInCert.jpg",
+      "certUrl": "https://www.linkedin.com/learning/certificates/b61ac6e86b6fc594f84d7a9e171822f8ea89470d06aaf8902a3b523874eb7006?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BXiftfnvFT5agC%2F9Gbj7Maw%3D%3D"
     },
     {
       "title": "Google Project Management Certificate",
-      "imageUrl": "./images/certs/LinkedInCert.jpg"
+      "imageUrl": "./images/certs/LinkedInCert.jpg",
+      "certUrl": "https://www.credly.com/badges/01b43a15-d052-4ebf-8f24-0880a0c72824/linked_in_profile"
     },
     {
       "title": "Google Analytics Certificate",
-      "imageUrl": "./images/certs/LinkedInCert.jpg"
+      "imageUrl": "./images/certs/LinkedInCert.jpg",
+      "certUrl": "https://skillshop.credential.net/056f9151-7b8e-46da-ba50-9808e4912239"
     }
   ],
   "projects": [

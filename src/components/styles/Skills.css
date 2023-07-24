@@ -35,6 +35,9 @@
     width: 20rem;
     font-size: 1.25rem;
 }
+.cert-card:hover {
+    cursor: pointer;
+}
 .cert-card .cert-card-body {
     display: flex;
     flex-wrap: nowrap;
