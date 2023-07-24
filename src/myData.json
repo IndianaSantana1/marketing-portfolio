@@ -1,14 +1,20 @@
 {
   "skills": [
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" },
-    { "imageUrl": "./images/canva.png" }
+    { "imageUrl": "./images/skills/canva.png" },
+    { "imageUrl": "./images/skills/tableau.png" },
+    { "imageUrl": "./images/skills/asana.png" },
+    { "imageUrl": "./images/skills/jira.png" },
+    { "imageUrl": "./images/skills/microsoft-office.png" },
+    { "imageUrl": "./images/skills/g-suite.png" },
+    { "imageUrl": "./images/skills/hootsuite.png" },
+    { "imageUrl": "./images/skills/google-analytics.png" },
+    { "imageUrl": "./images/skills/google-ads.png" },
+    { "imageUrl": "./images/skills/mailchimp.png" },
+    { "imageUrl": "./images/skills/slack.png" },
+    { "imageUrl": "./images/skills/twitter.png" },
+    { "imageUrl": "./images/skills/meta.png" },
+    { "imageUrl": "./images/skills/instagram.jpg" },
+    { "imageUrl": "./images/skills/tiktok.png" }
   ],
   "certifications": [
     {

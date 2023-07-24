@@ -20,7 +20,7 @@
 }
 .skill-card {
     width: 8rem;
-    height: 8rem;
+    height: 3.9375rem !important;
 }
 .certs {
     display: flex;

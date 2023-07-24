@@ -14,10 +14,10 @@ const Skills = () => {
           <div className="skills-wrapper">
             <h2>Skills</h2>
             <div className="skills">
-              {SkillsAndCerts.skills.map((skill) => {
+              {SkillsAndCerts.skills.map((skill, key) => {
                 return (
-                  <Card body className="skill-card">
-                    <Card.Img src={skill.imageUrl} />
+                  <Card body className={`skill-card`}>
+                    <Card.Img className={`skill-${key}`} src={skill.imageUrl} />
                   </Card>
                 );
               })}
