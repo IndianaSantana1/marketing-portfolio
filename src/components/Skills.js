@@ -11,8 +11,20 @@ const Skills = () => {
       <Container className="skills-container">
         <h1>Skills and Certifications</h1>
         <div className="skills-certs-wrapper">
+          <div className="skills-wrapper">
+            <h2>Skills</h2>
+            <div className="skills">
+              {SkillsAndCerts.skills.map((skill) => {
+                return (
+                  <Card body className="skill-card">
+                    <Card.Img src={skill.imageUrl} />
+                  </Card>
+                );
+              })}
+            </div>
+          </div>
           <div className="certs-wrapper">
-            <h2>3 — Certifications</h2>
+            <h2>Certifications</h2>
             <div className="certs">
               {SkillsAndCerts.certifications.map((cert) => {
                 return (
@@ -26,18 +38,6 @@ const Skills = () => {
                         <div>{cert.title}</div>
                       </Card.Title>
                     </Card.Body>
-                  </Card>
-                );
-              })}
-            </div>
-          </div>
-          <div className="skills-wrapper">
-            <h2>4 — Skills</h2>
-            <div className="skills">
-              {SkillsAndCerts.skills.map((skill) => {
-                return (
-                  <Card body className="skill-card">
-                    <Card.Img src={skill.imageUrl} />
                   </Card>
                 );
               })}
