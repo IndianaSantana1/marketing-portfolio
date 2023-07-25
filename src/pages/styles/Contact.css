@@ -1,45 +1,55 @@
 .contact-section {
-    background-color: #f5e5de;
-    color: black !important;
-    padding: 4rem !important;
+  background-color: #f5e5de;
+  color: black !important;
+  padding: 4rem !important;
 }
 .contact-section h1 {
-    font-size: 2rem;
-    color: #d08879 !important;
+  font-size: 3rem;
+  color: #d08879 !important;
+}
+.contact-section textarea {
+  height: 15rem;
 }
 .contact-form-wrapper {
-    padding-top: 3rem;
-    margin: auto;
-    max-width: 35rem;
-    font-size: 1.25rem;
+  padding-top: 3rem;
+  margin: auto;
+  max-width: 35rem;
+  font-size: 1.5rem;
 }
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .contact-form .form-item {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.form-item input, textarea {
-    padding: .75rem;
-    border: none;
-    border-radius: 10px;
+.form-item input,
+textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
 }
 .contact-btn {
-    width: 15rem;
-    border: none;
-    color: white;
-    border-radius: 999999px;
-    font-size: 1.25rem !important;
-    letter-spacing: .75px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 0.5rem 1rem;
+  width: 15rem;
+  border: none;
+  color: white;
+  border-radius: 999999px;
+  font-size: 1.25rem !important;
+  letter-spacing: 0.75px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
 }
 .contact-btn:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
+}
+.contact-section .footer-section {
+  padding-bottom: 0;
+}
+.social-icon {
+  color: #d08879;
 }

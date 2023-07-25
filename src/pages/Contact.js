@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles/Contact.css";
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Footer from "../components/Footer";
 
 const Contact = () => {
