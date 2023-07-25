@@ -1,20 +1,17 @@
 {
   "skills": [
-    { "imageUrl": "./images/skills/canva.png" },
-    { "imageUrl": "./images/skills/tableau.png" },
-    { "imageUrl": "./images/skills/asana.png" },
-    { "imageUrl": "./images/skills/jira.png" },
-    { "imageUrl": "./images/skills/microsoft-office.png" },
-    { "imageUrl": "./images/skills/g-suite.png" },
     { "imageUrl": "./images/skills/hootsuite.png" },
-    { "imageUrl": "./images/skills/google-analytics.png" },
-    { "imageUrl": "./images/skills/google-ads.png" },
-    { "imageUrl": "./images/skills/mailchimp.png" },
-    { "imageUrl": "./images/skills/slack.png" },
-    { "imageUrl": "./images/skills/twitter.png" },
-    { "imageUrl": "./images/skills/meta.png" },
+    { "imageUrl": "./images/skills/sproutsocial.png" },
     { "imageUrl": "./images/skills/instagram.jpg" },
-    { "imageUrl": "./images/skills/tiktok.png" }
+    { "imageUrl": "./images/skills/tiktok.png" },
+    { "imageUrl": "./images/skills/youtube.png" },
+    { "imageUrl": "./images/skills/meta.png" },
+    { "imageUrl": "./images/skills/canva.png" },
+    { "imageUrl": "./images/skills/shopify.png" },
+    { "imageUrl": "./images/skills/google-analytics.png" },
+    { "imageUrl": "./images/skills/mailchimp.png" },
+    { "imageUrl": "./images/skills/office.png" },
+    { "imageUrl": "./images/skills/g-suite.png" }
   ],
   "certifications": [
     {
@@ -35,24 +32,19 @@
   ],
   "projects": [
     {
-      "title": "Project 1",
-      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/default-text-and-media.jpg"
+      "title": "Social Media Management",
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "imageUrl": "./images/projects/sfs.svg"
     },
     {
-      "title": "Project 2",
-      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/default-text-and-media.jpg"
+      "title": "Social Media Management",
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "imageUrl": "./images/projects/bny.svg"
     },
     {
-      "title": "Project 3",
-      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/default-text-and-media.jpg"
-    },
-    {
-      "title": "Project 4",
-      "description": "This is a project about this this and that.This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/default-text-and-media.jpg"
+      "title": "Social Media Management",
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "imageUrl": "./images/projects/bny.svg"
     }
   ]
 }

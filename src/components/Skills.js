@@ -12,7 +12,6 @@ const Skills = () => {
         <h1>Skills and Certifications</h1>
         <div className="skills-certs-wrapper">
           <div className="skills-wrapper">
-            <h2>Skills</h2>
             <div className="skills">
               {SkillsAndCerts.skills.map((skill, key) => {
                 return (
@@ -24,11 +23,15 @@ const Skills = () => {
             </div>
           </div>
           <div className="certs-wrapper">
-            <h2>Certifications</h2>
             <div className="certs">
               {SkillsAndCerts.certifications.map((cert, key) => {
                 return (
-                  <Card body id={key} className="cert-card"  onClick={() => window.open(cert.certUrl, "_blank")}>
+                  <Card
+                    body
+                    id={key}
+                    className="cert-card"
+                    onClick={() => window.open(cert.certUrl, "_blank")}
+                  >
                     <Card.Img variant="top" src={cert.imageUrl} />
                     <Card.Body>
                       <Card.Title>
