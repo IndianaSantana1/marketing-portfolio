@@ -1,17 +1,17 @@
 nav {
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
   background-color: #f5e5de;
 }
 .navbar-container {
-    padding-top: 2.75rem;
-    padding-bottom: 2.75rem;
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
 }
 .brand {
-    font-size: 1.5rem !important;
-    color: #2e2725 !important;
+  font-size: 2rem !important;
+  color: #2e2725 !important;
 }
 .link-item {
-    color: #d08879 !important;
+  color: #d08879 !important;
 }
 .brand:hover,
 .link-item:hover {
@@ -20,5 +20,5 @@ nav {
   transform: scale(1.05);
 }
 .navbar-nav {
-    column-gap: 2rem;
+  column-gap: 2rem;
 }

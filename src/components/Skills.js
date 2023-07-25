@@ -7,45 +7,36 @@ let SkillsAndCerts = require("../myData.json");
 
 const Skills = () => {
   return (
-    <div id="skills" className="section skilss-section">
+    <div id="skills" className="section skills-section">
       <Container className="skills-container">
-        <h1>Skills and Certifications</h1>
         <div className="skills-certs-wrapper">
-          <div className="skills-wrapper">
-            <div className="skills">
-              {SkillsAndCerts.skills.map((skill, key) => {
-                return (
-                  <Card body className={`skill-card`}>
-                    <Card.Img className={`skill-${key}`} src={skill.imageUrl} />
-                  </Card>
-                );
-              })}
-            </div>
-          </div>
-          <div className="certs-wrapper">
-            <div className="certs">
+          <div className="left-wrapper">
+            <h1>
+              Skills & <br /> <b>Certifications</b>
+            </h1>
+            <div className="certs-wrapper">
               {SkillsAndCerts.certifications.map((cert, key) => {
                 return (
-                  <Card
-                    body
-                    id={key}
-                    className="cert-card"
-                    onClick={() => window.open(cert.certUrl, "_blank")}
-                  >
-                    <Card.Img variant="top" src={cert.imageUrl} />
-                    <Card.Body>
-                      <Card.Title>
-                        <div>
-                          <LiaCertificateSolid />
-                        </div>
-                        <div>{cert.title}</div>
-                      </Card.Title>
-                    </Card.Body>
-                  </Card>
+                  <div className="cert">
+                    <span className="cert-icon">
+                      <LiaCertificateSolid />
+                    </span>
+                    {cert.title}
+                  </div>
                 );
               })}
             </div>
           </div>
+          <img src="./images/skills.svg" className="skills-img" />
+          {/* <div className="skills-wrapper">
+            {SkillsAndCerts.skills.map((skill, key) => {
+              return (
+                <Card body className={`skill-card`}>
+                  <Card.Img className={`skill-${key}`} src={skill.imageUrl} />
+                </Card>
+              );
+            })}
+          </div> */}
         </div>
       </Container>
     </div>

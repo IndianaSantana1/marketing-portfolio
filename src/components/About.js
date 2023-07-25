@@ -8,7 +8,9 @@ const About = () => {
     <div id="about" className="section">
       <Container className="about-container">
         <div className="about-subsection">
-          <h2>About Me</h2>
+          <h1>
+            About <b>Me</b>
+          </h1>
           <div className="subsection-body">
             <h2>
               Hey there! My name is Indiana Santana and I am a marketing
@@ -18,7 +20,7 @@ const About = () => {
             </h2>
           </div>
         </div>
-        <div className="about-subsection">
+        {/* <div className="about-subsection">
           <h2>Marketing Experiece</h2>
           <div className="subsection-body">
             <h2>
@@ -32,7 +34,7 @@ const About = () => {
               Get Results With Me <FaArrowRight className="cta-icon" />
             </Button>
           </div>
-        </div>
+        </div> */}
       </Container>
     </div>
   );

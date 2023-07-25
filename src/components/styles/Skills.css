@@ -1,47 +1,45 @@
+.skills-section {
+  padding: 0;
+}
 .skills-certs-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.skills-wrapper, .certs-wrapper{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex: 1;
-    flex-direction: column;
+.skills-certs-wrapper h1 {
+  font-size: 5rem;
+  text-align: left;
 }
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
+.certs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.cert {
+  font-size: 1.75rem;
+  width: 40rem;
+  color: black;
+}
+.cert-icon {
+  padding-right: 10px;
+  color: #d08879;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  row-gap: 2rem;
 }
 .skill-card {
-    width: 8rem;
-    height: 3.9375rem !important;
+  width: 9rem;
+  height: 4rem !important;
 }
-.certs {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 1.5rem;
-    justify-content: space-between;
-}
-.certs .card-body, .skills .card-body {
-    color: #d08879 !important;
-}
-.cert-card {
-    width: 22rem;
-    font-size: 1.25rem;
-}
-.cert-card:hover {
-    cursor: pointer;
-}
-.cert-card .cert-card-body {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    column-gap: 1rem;
+.skills-img {
+  transform: rotate(-90deg);
+  max-width: 30rem;
 }
 /* @media screen and (min-width: 62rem) {
     .skills-wrapper, .certs-wrapper {

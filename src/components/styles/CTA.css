@@ -1,10 +1,13 @@
-.cta-section {
-    padding-bottom: 6rem;
+.cta-container h1 {
+  font-size: 3rem;
 }
-.cta-section-btn .cta-btn{
-    margin: auto;
+.cta-section {
+  padding-bottom: 6rem;
+}
+.cta-section-btn .cta-btn {
+  margin: auto;
 }
 .cta-section-btn .cta-btn:hover {
-    margin: auto;
-    transform: scale(1.02);
+  margin: auto;
+  transform: scale(1.02);
 }

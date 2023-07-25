@@ -18,11 +18,14 @@ const Projects = () => {
                   <h1>{project.title}</h1>
                   <div className="p-description">{project.description}</div>
                 </div>
-                <img
-                  className="project-img"
-                  src={project.imageUrl}
-                  alt={project.title}
-                />
+                <div className="image-container">
+                  <img
+                    className={`project-img project-img-${index}`}
+                    src={project.imageUrl}
+                    alt={project.title}
+                  />
+                  {project.imageUrl2 && <img src={project.imageUrl2} className={`project-img project-img-${index}`} />}
+                </div>
               </div>
             );
           })}
