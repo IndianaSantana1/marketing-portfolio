@@ -7,7 +7,6 @@
   align-items: center;
 }
 .skills-certs-wrapper h1 {
-  font-size: 5rem;
   text-align: left;
 }
 .certs-wrapper {
@@ -17,7 +16,7 @@
   margin-top: 2rem;
 }
 .cert {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   width: 40rem;
   color: black;
 }
@@ -40,6 +39,7 @@
 .skills-img {
   transform: rotate(-90deg);
   max-width: 30rem;
+  margin-right: 3rem;
 }
 /* @media screen and (min-width: 62rem) {
     .skills-wrapper, .certs-wrapper {
