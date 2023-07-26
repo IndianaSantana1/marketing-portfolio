@@ -11,22 +11,24 @@ const Skills = () => {
         <div className="skills-certs-wrapper">
           <div className="left-wrapper">
             <h1>
-              Skills & <br /> <b>Certifications</b>
+              Skills & <br className="new-line" /> <b>Certifications</b>
             </h1>
             <div className="certs-wrapper">
               {SkillsAndCerts.certifications.map((cert, key) => {
                 return (
-                  <div className="cert">
+                  <h4 className="cert">
                     <span className="cert-icon">
                       <LiaCertificateSolid />
                     </span>
                     {cert.title}
-                  </div>
+                  </h4>
                 );
               })}
             </div>
           </div>
-          <img src="./images/skills.svg" className="skills-img" />
+          <div className="img-box">
+            <img src="./images/skills.svg" className="skills-img" />
+          </div>
         </div>
       </Container>
     </div>

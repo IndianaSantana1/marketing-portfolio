@@ -3,11 +3,9 @@
 }
 .skills-certs-wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-}
-.skills-certs-wrapper h1 {
-  text-align: left;
 }
 .certs-wrapper {
   display: flex;
@@ -16,15 +14,16 @@
   margin-top: 2rem;
 }
 .cert {
-  font-size: 1.5rem;
-  width: 40rem;
+  display: flex;
   color: black;
 }
 .cert-icon {
   padding-right: 10px;
   color: #d08879;
 }
-
+.new-line {
+    display: none;
+}
 .skills-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -36,10 +35,37 @@
   width: 9rem;
   height: 4rem !important;
 }
+.img-box {
+    display: grid;
+    height: 100%;
+}
 .skills-img {
   transform: rotate(-90deg);
-  max-width: 30rem;
-  margin-right: 3rem;
+  max-width: 80%;
+  max-height: 100vh;
+  margin: auto;
+}
+@media screen and (min-width: 75rem) {
+    .skills-certs-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .skills-certs-wrapper h1 {
+        text-align: left;
+    }
+    .new-line {
+        display:inline;
+    }
+    .cert {
+        font-size: 1.5rem;
+    }
+    .skills-img {
+        max-width: 30rem;
+        max-height: unset;
+        margin-right: 3rem;
+    }
 }
 /* @media screen and (min-width: 62rem) {
     .skills-wrapper, .certs-wrapper {

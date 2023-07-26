@@ -8,9 +8,9 @@
 .experiences-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: space-between;
-  padding: 4rem 0 2rem;
+  gap: 5rem;
+  justify-content: center;
+  padding: 3rem 0 1rem;
 }
 .experience-card {
   width: 22rem;
@@ -18,7 +18,7 @@
 }
 .experience-img {
   width: 100%;
-  max-height: 15rem;
+  max-height: 20rem;
   border-radius: 50%;
 }
 .experience-card-body {
@@ -37,4 +37,11 @@
 }
 .experiences-section-btn .view-projects-btn:hover {
   transform: scale(1.02);
+}
+
+@media screen and (min-width: 75rem) {
+    .experiences-wrapper {
+        gap: 1rem;
+        justify-content: space-between;
+    }
 }

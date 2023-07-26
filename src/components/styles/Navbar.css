@@ -17,9 +17,9 @@ nav {
 .brand:hover:hover {
     color: #d08879 !important;
 }
-.link-item:hover {
-  border-bottom: 1px solid #d08879;
-  padding-bottom: 3px;
+.active-link {
+  border-bottom: 1px solid #d08879 !important;
+  padding-bottom: 3px !important;
 }
 .navbar-nav {
   column-gap: 2rem;

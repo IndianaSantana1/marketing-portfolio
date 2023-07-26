@@ -15,6 +15,7 @@
 }
 .footer-text {
     color: black !important;
+    overflow-wrap: break-word;
 }
 .social-media-wrapper {
     text-align: center;
