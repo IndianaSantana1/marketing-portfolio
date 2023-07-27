@@ -50,28 +50,28 @@
   "projects": [
     {
       "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/projects/sfs.svg"
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
+      "imageUrl": "./images/projects/sfs.jpg"
     },
     {
       "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/projects/bny.svg"
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
+      "imageUrl": "./images/projects/bny.jpg"
     },
     {
       "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
       "imageUrl": "./images/projects/collage.jpg",
-      "imageUrl2": "./images/projects/phone.svg"
+      "imageUrl2": "./images/projects/phone.jpg"
     },
     {
       "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
       "imageUrl": "./images/projects/pcimedia.jpg"
     },
     {
       "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
+      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
       "imageUrl": "./images/projects/magnercenter.jpg"
     }
   ]

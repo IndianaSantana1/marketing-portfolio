@@ -27,7 +27,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="img-box">
-            <img src="./images/skills.svg" className="skills-img" />
+            <img src="./images/skills.jpg" className="skills-img" />
           </div>
         </div>
       </Container>
