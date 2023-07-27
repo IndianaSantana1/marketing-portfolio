@@ -46,7 +46,6 @@
     padding-bottom: 0;
 }
 .projects-page-section .cta-button {
-    font-size: calc(1rem + 0.2vw) !important;
     max-width: 14rem !important;
 }
 

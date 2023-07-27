@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Skills.css";
 import { Container } from "react-bootstrap";
-import { LiaCertificateSolid } from "react-icons/lia";
+import { FaAward } from "react-icons/fa";
 let SkillsAndCerts = require("../myData.json");
 
 const Skills = () => {
@@ -11,14 +11,14 @@ const Skills = () => {
         <div className="skills-certs-wrapper">
           <div className="left-wrapper">
             <h1>
-              Skills & <br className="new-line" /> <b>Certifications</b>
+              Skills & <br className="new-line" /> Certifications
             </h1>
             <div className="certs-wrapper">
               {SkillsAndCerts.certifications.map((cert, key) => {
                 return (
                   <h4 className="cert">
                     <span className="cert-icon">
-                      <LiaCertificateSolid />
+                      <FaAward />
                     </span>
                     {cert.title}
                   </h4>

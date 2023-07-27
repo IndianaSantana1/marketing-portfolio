@@ -2,17 +2,14 @@
   "experiences": [
     {
       "title": "Social Media",
-      "description": "This is a project about this this and that. This is a project about this this and that.",
       "imageUrl": "./images/experiences/default.jpg"
     },
     {
       "title": "Content Creation",
-      "description": "This is a project about this this and that. This is a project about this this and that.",
       "imageUrl": "./images/experiences/default.jpg"
     },
     {
       "title": "Brand Strategy",
-      "description": "This is a project about this this and that. This is a project about this this and that.",
       "imageUrl": "./images/experiences/default.jpg"
     }
   ],

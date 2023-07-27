@@ -8,9 +8,7 @@ const Experience = () => {
   return (
     <div id="experiences" className="section experiences-section">
       <Container className="experiences-container">
-        <h1>
-          Marketing <b>Experience</b>
-        </h1>
+        <h1>Marketing Experience</h1>
         <div className="experiences-wrapper">
           {myData.experiences.map((experience, key) => {
             return (

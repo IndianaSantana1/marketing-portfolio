@@ -17,8 +17,8 @@ h1 {
     color: white !important;
     border: none !important;
     font-weight: bold !important;
-    font-size: calc(1rem + 0.5vw) !important;
-    max-width: 20rem !important;
+    font-size: calc(1rem + 0.2vw) !important;
+    max-width: 15rem !important;
     margin-top: 2rem !important;
     display: flex !important;
     justify-content: center !important;

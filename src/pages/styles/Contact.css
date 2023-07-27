@@ -36,7 +36,7 @@ textarea {
   border: none;
   color: white;
   border-radius: 999999px;
-  font-size: calc(1rem + 0.5vw) !important;
+  font-size: calc(1rem + 0.2vw) !important;
   letter-spacing: 0.75px;
   font-weight: bold;
   text-transform: uppercase;
