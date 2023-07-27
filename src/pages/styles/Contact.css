@@ -1,10 +1,8 @@
 .contact-section {
   background-color: #f5e5de;
   color: black !important;
-  padding: 4rem !important;
 }
 .contact-section h1 {
-  font-size: 3rem;
   color: #d08879 !important;
 }
 .contact-section textarea {
@@ -14,7 +12,7 @@
   padding-top: 3rem;
   margin: auto;
   max-width: 35rem;
-  font-size: 1.5rem;
+  font-size: calc(1rem + 0.5vw) !important;
 }
 .contact-form {
   display: flex;
@@ -34,11 +32,11 @@ textarea {
   border-radius: 10px;
 }
 .contact-btn {
-  width: 15rem;
+  max-width: 15rem;
   border: none;
   color: white;
   border-radius: 999999px;
-  font-size: 1.25rem !important;
+  font-size: calc(1rem + 0.5vw) !important;
   letter-spacing: 0.75px;
   font-weight: bold;
   text-transform: uppercase;
