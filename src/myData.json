@@ -61,18 +61,18 @@
     {
       "title": "Social Media Management",
       "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/projects/collage.svg",
+      "imageUrl": "./images/projects/collage.jpg",
       "imageUrl2": "./images/projects/phone.svg"
     },
     {
       "title": "Social Media Management",
       "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/projects/bny.svg"
+      "imageUrl": "./images/projects/pcimedia.jpg"
     },
     {
       "title": "Social Media Management",
       "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.This is a project about this this and that.",
-      "imageUrl": "./images/projects/bny.svg"
+      "imageUrl": "./images/projects/magnercenter.jpg"
     }
   ]
 }

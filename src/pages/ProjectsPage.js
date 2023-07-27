@@ -24,7 +24,13 @@ const Projects = () => {
                     src={project.imageUrl}
                     alt={project.title}
                   />
-                  {project.imageUrl2 && <img src={project.imageUrl2} className={`project-img project-img-${index}`} />}
+                  {project.imageUrl2 && (
+                    <img
+                      className={`project-img project-img-${index}`}
+                      src={project.imageUrl2}
+                      alt={project.title}
+                    />
+                  )}
                 </div>
               </div>
             );

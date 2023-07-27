@@ -18,7 +18,7 @@ h1 {
     border: none !important;
     font-weight: bold !important;
     font-size: calc(1rem + 0.5vw) !important;
-    max-width: 22rem !important;
+    max-width: 20rem !important;
     margin-top: 2rem !important;
     display: flex !important;
     justify-content: center !important;
