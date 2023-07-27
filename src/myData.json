@@ -49,30 +49,33 @@
   ],
   "projects": [
     {
-      "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
-      "imageUrl": "./images/projects/sfs.jpg"
+      "title": "Brooklyn College Student Financial Services (SFS)",
+      "description": "As the Social Media Specialist for the SFS Instagram, I am responsible for managing and driving the division’s online presence. I lead the creation, scheduling, and execution of digital strategies to increase student awareness, build credibility, promote services and information, and engage with the target audience. I ensure the account remains fresh, relevant, and aligned with division protocols by curating visually captivating content and coordinating with the design team. Within just one month as the specialist, I grew the Instagram account to 297 followers (22% increase) and boosted engagement by 40%.",
+      "imageUrl": "./images/projects/sfs.jpg",
+      "projectUrl": "https://www.instagram.com/bcstudentfinancialservices/?hl=en"
     },
     {
-      "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
-      "imageUrl": "./images/projects/bny.jpg"
-    },
-    {
-      "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
-      "imageUrl": "./images/projects/collage.jpg",
-      "imageUrl2": "./images/projects/phone.jpg"
-    },
-    {
-      "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
+      "title": "PCI Media Inc.",
+      "description": "As a Digital Marketing Intern at PCI Media, I designed and optimized content for Instagram, Twitter, and Facebook using Canva, resulting in a 15% increase in engagement and reach. To enable data-driven decision making and performance tracking, I meticulously created monthly dashboards that displayed KPIs and benchmarks. Leveraging Google Analytics, these dashboards provided valuable insights, enabling the team to assess impact and make informed marketing decisions. Notably, my social media campaigns for Giving Tuesday significantly boosted support for health, social justice, and environmental causes.",
       "imageUrl": "./images/projects/pcimedia.jpg"
     },
     {
-      "title": "Social Media Management",
-      "description": "This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that. This is a project about this this and that.",
+      "title": "The Brooklyn Navy Yard",
+      "description": "As a Marketing Intern for Sartorous at the Brooklyn Navy Yard’s program, I collaborated with social media influencers to promote products, resulting in a 17% increase in brand awareness. Through Shopify, I optimized the website and launched email marketing campaigns to increase engagement and drive sales. I also scheduled social media content for Facebook and Instagram using Later to increase audience interaction and researched industry competitors to make the company’s products more widely available.",
+      "imageUrl": "./images/projects/bny.jpg"
+    },
+    {
+      "title": "Brooklyn College Magner Career Center",
+      "description": "As a Social Media Volunteer at the Magner Career Center, I made significant contributions to the organization’s online presence and student engagement. Using Canva, I created compelling spotlights to highlight student testimonials, internship opportunities, and stipend winners on Instagram, Facebook, and Twitter. I managed daily content scheduling such as Youtube videos, virtual events, and employment opportunities using Hootsuite. This led to increased student awareness and improved engagement.",
       "imageUrl": "./images/projects/magnercenter.jpg"
+    },
+    {
+      "title": "Instagram: @justeenwishes",
+      "description": "As the proud owner of an Instagram page dedicated to teen wishes during my 8th-grade year (2012-2013), I cultivated a thriving community of 27k followers. I developed and posted branded content to ensure cohesiveness and consistency. Through interactive and relatable posts, I established a connection with followers seeking enjoyable content. The overwhelming response of likes ranged from 500 to 2.2k reflects the genuine connection established with my followers. This reaffirmed my passion for creating meaningful connections through compelling content.",
+      "imageUrl": "./images/projects/collage.jpg",
+      "imageUrl2": "./images/projects/phone.jpg",
+      "projectUrl": "https://www.instagram.com/justeenwishes/?hl=en",
+      "projectUrl2": "https://www.instagram.com/p/VQE4djgUCl/?igshid=MzRlODBiNWFlZA%3D%3D"
     }
   ]
 }

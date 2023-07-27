@@ -6,8 +6,8 @@
 .projects-pp-wrapper {
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
-    padding: 3rem 0;
+    row-gap: 5rem;
+    padding: 5rem 0;
 }
 .project-wrapper {
     display: flex;
@@ -32,15 +32,28 @@
 }
 .project-img {
     max-width: 100%;
-    max-height: 30rem;
+    max-height: 29rem;
+}
+.project-img:hover {
+    cursor: pointer;
+}
+.project-img-1 {
+    max-height: 28rem;
 }
 .projects-page-section .cta-section {
     background-color: #f5e5de;
     padding-top: 2rem;
     padding-bottom: 0;
 }
+.projects-page-section .cta-button {
+    font-size: calc(1rem + 0.2vw) !important;
+    max-width: 14rem !important;
+}
 
 @media screen and (min-width: 64rem) {
+    .page-title {
+        font-size: 3rem;
+    }
     .project-wrapper {
         justify-content: space-between;
         flex-direction: row !important;
@@ -48,14 +61,31 @@
     .project-wrapper:nth-child(even) {
         flex-direction: row-reverse !important;
     }
-    .project-img-2 {
-        max-height: 25rem;
-    }
     .image-container {
         flex-wrap: nowrap;
         justify-content: unset;
     }
     .p-text-wrapper {
-        flex-basis: 45%;
+        flex-basis: 42%;
+    }
+    #project-2 .image-container {
+        margin: auto 0;
+    }
+    #project-2 .project-img-2 {
+        max-width: 100%;
+        max-height: 18rem;
+    }
+    #project-4 .image-container {
+        flex-basis: 48%;
+    }
+    #project-4 .project-img-4 {
+        width: 100%;
+        max-height: 36rem;
+    }
+    #project-5 .project-img-5, #project-5 .project-img-extra-5 {
+        max-height: 25rem;
+    }
+    #project-5 .p-text-wrapper-5 {
+        flex-basis: 47%;
     }
 }

@@ -6,29 +6,41 @@ import Footer from "../components/Footer";
 let myData = require("../myData.json");
 
 const Projects = () => {
+
+  function handleClick(url) {
+    if (url) {
+      window.open(url, "_blank");
+    }
+  }
   return (
     <div id="projects-page" className="section projects-page-section">
       <Container className="projects-page-container">
-        <h1>I’m open for new projects — see what I have done below.</h1>
+        <h1 className="page-title">Notable Work & Projects</h1>
         <div className="projects-pp-wrapper">
           {myData.projects.map((project, index) => {
             return (
               <div id={`project-${index + 1}`} className="project-wrapper">
-                <div className="p-text-wrapper">
+                <div className={`p-text-wrapper p-text-wrapper-${index + 1}`}>
                   <h1>{project.title}</h1>
                   <div className="p-description">{project.description}</div>
                 </div>
                 <div className="image-container">
                   <img
-                    className={`project-img project-img-${index}`}
+                    className={`project-img project-img-${index + 1}`}
                     src={project.imageUrl}
                     alt={project.title}
+                    onClick={() => {
+                      handleClick(project.projectUrl);
+                    }}
                   />
                   {project.imageUrl2 && (
                     <img
-                      className={`project-img project-img-${index}`}
+                      className={`project-img project-img-extra-${index + 1}`}
                       src={project.imageUrl2}
                       alt={project.title}
+                      onClick={() => {
+                        handleClick(project.projectUrl2);
+                      }}
                     />
                   )}
                 </div>
@@ -37,7 +49,7 @@ const Projects = () => {
           })}
         </div>
         <CTA
-          titleText="Want to work together? Drop me a message and I’ll get back to you in no time."
+          titleText="Looking forward to working with you!"
           buttonLabel="Get in touch"
         />
       </Container>

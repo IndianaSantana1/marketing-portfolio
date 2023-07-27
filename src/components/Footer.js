@@ -23,7 +23,7 @@ function Footer() {
         </Nav>
         <div className="footer-text-wrapper">
           <div className="footer-text">
-            New York, NY | santana.indiana1@gmail.com
+            Brooklyn, NY | santana.indiana1@gmail.com
           </div>
           <div className="footer-text">© Indiana Santana, {date}</div>
         </div>
