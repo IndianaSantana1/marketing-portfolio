@@ -6,7 +6,7 @@
 .projects-pp-wrapper {
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 7rem;
     padding: 5rem 0;
 }
 .project-wrapper {
@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 .project-img-1 {
-    max-height: 28rem;
+    max-height: 27rem;
 }
 .projects-page-section .cta-section {
     background-color: #f5e5de;
