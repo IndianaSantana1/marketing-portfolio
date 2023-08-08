@@ -2,15 +2,18 @@
   "experiences": [
     {
       "title": "Social Media",
-      "imageUrl": "./images/experiences/default.jpg"
+      "description": "Developed and scheduled organic content across diverse platforms utilizing scheduling tools. Engaged audiences, enhanced brand awareness, and achieved tangible results.",
+      "imageUrl": "./images/experiences/social-media.jpg"
     },
     {
       "title": "Content Creation",
-      "imageUrl": "./images/experiences/default.jpg"
+      "description": "Designed brand-aligned content to appeal to targeted audiences. Utilized tools to create captivating graphics to deliver cohesive messages, capture attention, and foster brand loyalty.",
+      "imageUrl": "./images/experiences/content-creation.jpg"
     },
     {
       "title": "Brand Strategy",
-      "imageUrl": "./images/experiences/default.jpg"
+      "description": "Implemented comprehensive plans that positioned and elevated brands in competitive markets. Crafted impactful strategies that drove brand recognition, loyalty, and revenue growth.",
+      "imageUrl": "./images/experiences/analytics.jpg"
     }
   ],
   "skills": [

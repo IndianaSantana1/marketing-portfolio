@@ -16,7 +16,7 @@ const Skills = () => {
             <div className="certs-wrapper">
               {SkillsAndCerts.certifications.map((cert, key) => {
                 return (
-                  <h4 className="cert">
+                  <h4 key={key} className="cert">
                     <span className="cert-icon">
                       <FaAward />
                     </span>

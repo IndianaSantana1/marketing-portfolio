@@ -10,29 +10,15 @@ const About = () => {
         <div className="about-subsection">
           <h1>About Me</h1>
           <div className="subsection-body">
-            <h2>
-              Hey there! My name is Indiana Santana and I am a marketing
-              specialist and project manager. I've had the privilege of blending
-              my strategic marketing prowess with my exceptional project
-              management skills to successfully execute campaigns and projects.
-            </h2>
+            <h3>
+              Hi, I'm Indiana! I'm a passionate marketing specialist with
+              expertise in digital marketing, social media, and content
+              creation. I approach every project with meticulous attention to
+              detail, crafting compelling campaigns that reasonate with
+              audiences across platforms.
+            </h3>
           </div>
         </div>
-        {/* <div className="about-subsection">
-          <h2>Marketing Experiece</h2>
-          <div className="subsection-body">
-            <h2>
-              From collaborating with cross-functional teams to executing
-              high-impact campaigns, I've immersed myself in the dynamic world
-              of marketing, consistently delivering remarkable results. So, grab
-              a cup of coffee and let's dive into the exciting projects I've had
-              the pleasure of spearheading.
-            </h2>
-            <Button className="cta-button" size="lg" href="/#contact">
-              Get Results With Me <FaArrowRight className="cta-icon" />
-            </Button>
-          </div>
-        </div> */}
       </Container>
     </div>
   );

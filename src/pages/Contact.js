@@ -60,6 +60,7 @@ const Contact = () => {
                 name="name"
                 placeholder="Your Name"
                 onChange={(e) => setName(e.target.value)}
+                required
               />
             </div>
             <div className="form-item">
@@ -72,6 +73,7 @@ const Contact = () => {
                 name="email"
                 placeholder="name@email.com"
                 onChange={(e) => setEmail(e.target.value)}
+                required
               />
             </div>
             <div className="form-item">
@@ -83,6 +85,7 @@ const Contact = () => {
                 name="message"
                 placeholder="Start typing your message here..."
                 onChange={(e) => setMessage(e.target.value)}
+                required
               />
             </div>
             <button

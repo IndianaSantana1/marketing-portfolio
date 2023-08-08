@@ -19,7 +19,11 @@ const Projects = () => {
         <div className="projects-pp-wrapper">
           {myData.projects.map((project, index) => {
             return (
-              <div id={`project-${index + 1}`} className="project-wrapper">
+              <div
+                key={index + 1}
+                id={`project-${index + 1}`}
+                className="project-wrapper"
+              >
                 <div className={`p-text-wrapper p-text-wrapper-${index + 1}`}>
                   <h1>{project.title}</h1>
                   <div className="p-description">{project.description}</div>
