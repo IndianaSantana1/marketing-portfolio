@@ -62,5 +62,6 @@
 @media screen and (max-width: 61.9375rem) {
     .experience-header {
       justify-content: center;
+      text-align: center;
     }
   }

@@ -16,5 +16,6 @@
 @media screen and (max-width: 61.9375rem) {
   .about-subsection {
     justify-content: center;
+    text-align: center;
   }
 }
