@@ -67,6 +67,12 @@
         margin-right: 3rem;
     }
 }
+
+@media screen and (max-width: 75rem) {
+    .skills-certs-wrapper {
+        padding: 4rem 0 .5rem;
+    }
+}
 /* @media screen and (min-width: 62rem) {
     .skills-wrapper, .certs-wrapper {
         flex-wrap: nowrap;
