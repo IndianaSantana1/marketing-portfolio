@@ -11,8 +11,8 @@
       "imageUrl": "./images/experiences/content-creation.jpg"
     },
     {
-      "title": "Brand Strategy",
-      "description": "Implemented comprehensive plans that positioned and elevated brands in competitive markets. Crafted impactful strategies that drove brand recognition, loyalty, and revenue growth.",
+      "title": "Data Analysis",
+      "description": "Generated insightful KPI dashboards through analytical tools. Enabled data-driven decision-making and identified opportunities to drive business growth and optimize strategies.",
       "imageUrl": "./images/experiences/analytics.jpg"
     }
   ],
@@ -61,21 +61,20 @@
     },
     {
       "title": "The Brooklyn Navy Yard",
-      "description": "As a Marketing Intern for Sartorous at the Brooklyn Navy Yard’s program, I collaborated with social media influencers to promote products, resulting in a 17% increase in brand awareness. Through Shopify, I optimized the website and launched email marketing campaigns to increase engagement and drive sales. I also scheduled social media content for Facebook and Instagram using Later to increase audience interaction and researched industry competitors to make the company’s products more widely available.",
-      "imageUrl": "./images/projects/bny.jpg"
+      "description": "As a Marketing Intern for Sartorous and Upright Suspenders at the Brooklyn Navy Yard’s program, I collaborated with social media influencers to promote products, resulting in a 17% increase in brand awareness. Through Shopify, I optimized the website and launched email marketing campaigns to increase engagement and drive sales. I also scheduled social media content for Facebook and Instagram using Later to increase audience interaction and researched industry competitors to make the company’s products more widely available.",
+      "imageUrl": "./images/projects/bny.jpg",
+      "projectUrl": "https://uprightsuspenders.com/collections/upright-suspenders"
     },
     {
       "title": "Brooklyn College Magner Career Center",
       "description": "As a Social Media Volunteer at the Magner Career Center, I made significant contributions to the organization’s online presence and student engagement. Using Canva, I created compelling spotlights to highlight student testimonials, internship opportunities, and stipend winners on Instagram, Facebook, and Twitter. I managed daily content scheduling such as Youtube videos, virtual events, and employment opportunities using Hootsuite. This led to increased student awareness and improved engagement.",
-      "imageUrl": "./images/projects/magnercenter.jpg"
+      "imageUrl": "./images/projects/magner.jpg"
     },
     {
       "title": "Instagram: @justeenwishes",
       "description": "As the proud owner of an Instagram page dedicated to teen wishes during my 8th-grade year (2012-2013), I cultivated a thriving community of 27k followers. I developed and posted branded content to ensure cohesiveness and consistency. Through interactive and relatable posts, I established a connection with followers seeking enjoyable content. The overwhelming response of likes ranged from 500 to 2.2k reflects the genuine connection established with my followers. This reaffirmed my passion for creating meaningful connections through compelling content.",
-      "imageUrl": "./images/projects/collage.jpg",
-      "imageUrl2": "./images/projects/phone.jpg",
-      "projectUrl": "https://www.instagram.com/justeenwishes/?hl=en",
-      "projectUrl2": "https://www.instagram.com/p/VQE4djgUCl/?igshid=MzRlODBiNWFlZA%3D%3D"
+      "imageUrl": "./images/projects/ig-feed.jpg",
+      "projectUrl": "https://www.instagram.com/justeenwishes/?hl=en"
     }
   ]
 }

@@ -12,11 +12,12 @@ const Experience = () => {
           <h1>Marketing Experience</h1>
           <div className="experience-header-body">
             <h3>
-              From collaborating with cross-functional teams to executing
-              high-impact campaigns, I've immersed myself in the dynamic world
-              of marketing, consistently delivering remarkable results. So, grab
-              a cup of coffee and let's dive into the exciting projects I've had
-              the pleasure of spearheading.
+              I possess comprehensive experience in product, brand, channel, and
+              social media/influencer marketing. My skill set encompassess
+              campaign execution, brand strategy, email marketing, data
+              analysis, and content creation. I've led impactful digital
+              campaigns, optimized sites, and conducted market research,
+              yielding increased brand awareness, user engagement, and revenue.
             </h3>
           </div>
         </div>

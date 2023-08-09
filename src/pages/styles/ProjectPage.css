@@ -73,6 +73,7 @@
     #project-2 .project-img-2 {
         max-width: 100%;
         max-height: 18rem;
+        cursor: unset;
     }
     #project-4 .image-container {
         flex-basis: 48%;
@@ -80,9 +81,10 @@
     #project-4 .project-img-4 {
         width: 100%;
         max-height: 36rem;
+        cursor: unset;
     }
     #project-5 .project-img-5, #project-5 .project-img-extra-5 {
-        max-height: 25rem;
+        max-height: 28rem;
     }
     #project-5 .p-text-wrapper-5 {
         flex-basis: 47%;

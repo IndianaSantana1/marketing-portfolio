@@ -1,6 +1,7 @@
 #hero {
   background-color: #f5e5de;
   background-image: url("./hero-background.png");
+  background-size: contain;
 }
 .hero-container {
   display: flex;
